@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/foto5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 55px;
+
+}
+.back li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 9px;
+    width: fit-content;
+}
+.back li a {
+    color: rgb(3, 2, 2);
+    text-decoration: none;
+    font-weight:100;
+    transition: 1.5s ease-in-out;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 3px;
+    transition: transform .4s;
+    box-shadow: 0px 0px 5px #000;
+    background-color: rgb(190, 51, 51);
+}
+.back a:hover{
+    color: rgb(233, 189, 88);
+    transition: .4s;
+}
+
+body {
+    background-color: #27423a;
+    font-family: 'Times New Roman'
+
+}
+
+header {
+
+    color: rgb(200, 168, 93);
+    background-color: #313032fa;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+header>p {
+    justify-content: end;
+    margin-left: 100px;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.tickt {
+    background-color: rgb(190, 51, 51);
+    width: fit-content;
+    color: black;
+    padding: 9px;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+
+}
+.tickt:hover{
+    background-color: currentColor white;
+    border: 0.125rem solid #c7c2c2;
+    cursor: pointer;
+    color: rgb(230, 218, 218);
+    
+}
+.nav {
+    display: flex;
+    justify-content: end;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+nav>p {
+
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+h1 {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 270px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 150;
+    cursor: pointer;
+}
+
+img {
+    background-size: 100%;
+    margin: auto;
+    width: 100%;
+    display: block;
+    /*margin-top: 3px;*/
+
+
+}
+
+.canvas {
+    background-image: url(/webimg/canvas.png);
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /*margin-top: 15px;*/
+}
+
+.about-the-museum-box {
+
+    padding: 10px 50px 50px 50px;
+    font-size: 28px;
+    text-align: center;
+    /*background-color: #323034;*/
+    border: 8px rgb(200, 168, 93) solid;
+    /*margin-left: 300px;*/
+    /*margin-right: 300px;*/
+    width: 70%;
+    margin: auto;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    background-image: radial-gradient(#000000, #32303400);
+
+
+}
+
+.about {
+    font-size: 40px;
+    border-bottom: 3px solid rgb(200, 168, 93);
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.about-the-museum-box>p {
+    margin-top: 40px;
+}
+
+
+
+
+.item {
+    height:100%;
+    width: 100%;
+}
+
+div {
+    overflow: visible;
+}
+
+.gallery-wrap .item:hover {
+    flex: 7;
+
+}
+
+.gallery-wrap-outer {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gallery-wrap .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+}
+
+div {
+    overflow: visible;
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-direction:inherit;
+    width: 100%;
+    height: 70vh;
+    margin-top: 15px;
+    padding: 20px;
+    border: 2px solid rgb(200, 168, 93);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.dis {
+
+    font-size: 40px;
+    color: white;
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+    text-align: center;
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 400px;
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px 10px 5px 10px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+    border-radius: 5px;
+    /*border: #27423a solid 3px;*/
+    font-family: 'Times New Roman';
+
+}
+
+.item:hover p {
+    visibility: visible;
+    opacity: 1;
+    background-color: #27423a;
+}
+
+
+.ti {
+    /*margin-top: 20px;*/
+    background-color: #27423a;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+    padding: 20px;
+}
+
+.nv1 {
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.ul1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 0%;
+    gap: 80px;
+    background-color:#27423a;
+    padding: 10px;
+}
+
+.li1 {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.tintoon {
+    width: 80px;
+    height: 90px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(200, 168, 93);
+    line-height: 80px;
+    background-color: darkcyan;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 40%;
+    padding: 10px;
+    gap: 20px;
+}
+
+.img1 {
+    max-width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 10px;*/
+    border-radius: 100px;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: #323034;
+    color: rgb(200, 168, 93);
+    display: block;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+}
+
+footer>ul {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+    justify-items: normal;
+}
+
+.footer-nav {
+    list-style: none;
+    width: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+
+}
+
+address {
+    font-size: 90%;
+    color: white;
+    display: block;
+    font-style: italic;
+    justify-content: space-between;
+}
+
+.footer-sec {
+
+    margin: auto;
+    display: flex;
+}
+
+ul>h4 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+
+}
+
+.title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+
+}
